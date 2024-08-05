@@ -1,3 +1,5 @@
+some changes to make it better are coming in upcoming weeks, however it is more targets adjustments, not code.
+
 ABB Robot Arm Program for Shaft and Washer Placement
 Overview
 This program is designed for an ABB robot arm to manage the placement of shafts and washers into designated positions, perform measurements, and sort them into different magazine paths based on the results. The robot follows a specific sequence of movements and conditions to handle the components efficiently.
