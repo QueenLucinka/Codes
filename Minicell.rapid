@@ -1,0 +1,116 @@
+ !Targets for Start_PAth
+    CONST robtarget Target_10_2:=[[493.696406448,420.787491752,441.03625564],[0.939692624,0.000000003,-0.000000006,0.342020134],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10:=[[501.019553389,426.386769324,359.489015733],[0.939962964,-0.00079816,-0.000363666,0.34127534],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20:=[[493.451186375,425.803307933,421.249896171],[0.939692633,0.000000008,-0.000000026,0.342020109],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_30:=[[885.785267933,-45.460809788,339.868590553],[0.999390826,-0.000000003,-0.000000024,-0.034899536],[-1,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40:=[[751.370915852,-45.565788738,375.845625969],[0.004750518,-0.999227506,0.034800166,-0.017628713],[-1,0,2,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_50:=[[494.902516052,326.585080078,354.394859512],[0.00096268,-0.959048732,-0.283103631,0.008771414],[0,0,2,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_50_2:=[[498.804988461,329.247227588,337.316110152],[0.00096268,-0.959048732,-0.283103631,0.008771414],[0,0,2,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_60:=[[586.298798527,-46.944102279,448.185323347],[0.004964885,-0.999031797,0.043705662,-0.00079586],[-1,0,2,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_70:=[[682.12023968,-31.789733429,401.795873281],[0.999325876,0.00565227,-0.000819147,-0.036265334],[-1,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_80:=[[682.047290602,-32.786977881,401.784169248],[0.999325938,0.005653556,-0.000820938,-0.036263388],[-1,0,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_90:=[[887.569796916,-42.149205313,388.986140696],[0.999295051,0.005969796,0.007899738,-0.036212669],[-1,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !targets for Done path
+    CONST robtarget Target_90_2:=[[907.714474043,-43.757347669,401.659177491],[0.999295051,0.005969796,0.007899738,-0.036212669],[-1,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_100:=[[594.826540782,-26.590554541,361.02237307],[0.999295053,0.005969732,0.007899632,-0.036212641],[-1,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_110:=[[877.222139283,-342.294074479,360.830414048],[0.999295052,0.005969749,0.007899682,-0.03621266],[-1,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_110_2:=[[876.658283012,-342.891277505,328.825329847],[0.999295052,0.005969749,0.007899682,-0.03621266],[-1,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_120:=[[594.971415335,-24.59594086,361.045089055],[0.999295053,0.005969752,0.007899646,-0.036212641],[-1,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !targets for Redo_path
+    CONST robtarget Target_90_4:=[[752.168479013,-34.595577952,375.970472307],[0.004753162,-0.999227538,0.03480063,-0.017625306],[-1,-2,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_150:=[[563.859910272,31.787161223,396.83698039],[0.995312416,0.044358959,-0.04730106,0.071750175],[-1,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_120_2:=[[594.971415335,-24.59594086,361.045089055],[0.999295053,0.005969752,0.007899646,-0.036212641],[-1,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+   !targets for Wastebin
+    CONST robtarget Target_90_5:=[[887.769424574,-42.311748426,401.983591544],[0.999295051,0.005969796,0.007899738,-0.036212669],[-1,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_160:=[[672.993478076,-42.311753319,599.233673074],[0.999295051,0.005969745,0.007899731,-0.036212682],[-1,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_170:=[[133.313455242,-661.01288689,599.233709177],[0.770749129,0.009545239,0.002633034,-0.637061799],[-1,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_180:=[[112.672566815,-480.053485857,384.191028799],[0.648806904,0.372809042,0.443361226,-0.493450953],[-1,-2,1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_190:=[[673.874107721,-43.733339279,620.599329271],[0.998606119,0.004368849,-0.03562428,-0.038699395],[-1,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !VARIABLES FOR LOOPS:
+    VAR num shaft := 50; !distance between middle of shafts
+    VAR num washer := 85; !distance between middle of washers
+    VAR num Done_distance := 80;!distance between places in magasines
+    VAR num counter := 1;   
+    VAR num Done_counter := 1;!Counter for place in done magasine
+    VAR num Redo_counter := 1;!counter for place redo magasine
+    
+    PROC main()
+      Start_PAth; 
+      !this path is starts in home position, and determines which shaft/washer is in order and which path/place in magasine it should be placed,
+      !when done, robot needs to wait until path=0 before it proceeds to the next item
+    ENDPROC
+    
+    PROC Start_PAth()
+        FOR counter FROM 1 TO 6 DO!counter for 6 shafts/ washers, if amount of shafts/washers changes it is changed here!
+            !Targets 10_2; 10 and 20 are moving 50mm on x axis to the right with each loop
+            MoveJ offs(Target_10_2, (shaft * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
+            MoveJ offs(Target_10, (shaft * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
+            WaitUntil DICloseGripper = 1;!wait until gripper is closed
+            WaitTime 1.5;!then wait for next move
+            MoveL offs(Target_20, (shaft * (counter - 1)), 0, 0),v200,fine,My_Mechanism_1\WObj:=Start;
+            MoveL Target_30, v200, fine, My_Mechanism_1\WObj:=Start;
+            WaitUntil DICloseGripper = 0;
+            WaitTime 1.5;
+            MoveJ Target_40, v200, fine, My_Mechanism_1\WObj:=Start;
+            !targets 50 and 50_2 are moving are moving 85mm on x axis to the right with each loop 
+            MoveL offs(Target_50, (washer * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
+            MoveL offs(Target_50_2, (washer * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
+            WaitUntil DICloseGripper = 1;
+            WaitTime 1.5;
+            MoveL offs(Target_50, (washer * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
+            MoveJ Target_60, v200, fine, My_Mechanism_1\WObj:=Start;
+            MoveJ Target_70,v200,fine,My_Mechanism_1\WObj:=Start;         
+            WaitUntil DICloseGripper = 0;
+            WaitTime 1.5;
+            MoveJ Target_80, v200, fine, My_Mechanism_1\WObj:=Start;
+            MoveL Target_90,v200,fine,My_Mechanism_1\WObj:=Done;
+            !when robot places shaft and washer into measure station, robot waits until some path is selected
+            WaitUntil DIDone = 1 OR DIRedo = 1 OR DIWaste = 1;
+            IF DIDone = 1 THEN
+                DonePath;
+            ELSEIF DIRedo = 1 THEN
+                RedoPath;
+            ELSEIF DIWaste = 1 THEN
+                WastePath;
+            ENDIF 
+        ENDFOR
+    ENDPROC  
+    
+    PROC DonePath()
+        !targest 110 and 110_2 are moved 80mm to the left, hence negative value before variable and it moves to the left in done magasine
+        MoveL Target_90,v200,fine,My_Mechanism_1\WObj:=Start;
+        MoveL offs(Target_90, 0, 200,0),v200,fine,My_Mechanism_1\WObj:=Done;!this is target to the press station, it moves 200 mm on y-axis
+        WaitTime 1.5;
+        MoveL Target_100,v200,fine,My_Mechanism_1\WObj:=Done;
+        MoveL offs(Target_110, (-Done_distance * (Done_counter - 1)), 0,0),v200,fine,My_Mechanism_1\WObj:=Start;
+       MoveL offs(Target_110_2, (-Done_distance * (Done_counter - 1)), 0,0),v200,fine,My_Mechanism_1\WObj:=Start;
+        WaitUntil DICloseGripper = 0;
+        WaitTime 1.5;
+        WaitUntil DIDone = 0;
+        Done_counter := Done_counter + 1;!Done counter is for place in done magasine
+    ENDPROC
+    
+    PROC RedoPath()
+        
+        !targest 110 and 110_2 are moved 80mm to the left, hence negative value before variable (x_axis) and 100 mm on y _axis it moves to redo magasine
+        MoveL Target_90_4,v200,fine,My_Mechanism_1\WObj:=Redo;
+        MoveL offs(Target_110,(-Done_distance * (Redo_counter - 1)), -100, 0 ),v200,fine,My_Mechanism_1\WObj:=Redo;
+        MoveL offs(Target_110_2,(-Done_distance * (Redo_counter - 1)), -100, 0 ),v200,fine,My_Mechanism_1\WObj:=Redo;
+        WaitUntil DICloseGripper = 0;
+        WaitTime 1.5;
+        MoveL Target_150,v200,fine,My_Mechanism_1\WObj:=Redo;
+        WaitUntil DIRedo = 0;
+        Redo_counter := Redo_counter + 1;!redo counter is for redo magasine
+    ENDPROC
+    
+        PROC WastePath()
+        MoveJ Target_90_5,v200,fine,My_Mechanism_1\WObj:=Waste;
+        MoveJ Target_160,v200,fine,My_Mechanism_1\WObj:=Waste;
+        MoveL Target_170,v200,fine,My_Mechanism_1\WObj:=Waste;
+        MoveJ Target_180,v200,fine,My_Mechanism_1\WObj:=Waste;
+        WaitUntil DICloseGripper = 0;
+        WaitTime 1.5;
+        MoveJ Target_190,v200,fine,My_Mechanism_1\WObj:=Waste;
+        WaitUntil DIWaste = 0;
+    ENDPROC
+ENDMODULE
