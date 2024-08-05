@@ -45,22 +45,22 @@
             !Targets 10_2; 10 and 20 are moving 50mm on x axis to the right with each loop
             MoveJ offs(Target_10_2, (shaft * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
             MoveJ offs(Target_10, (shaft * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
-            WaitUntil DICloseGripper = 1;!wait until gripper is closed
+            WaitUntil DOCloseGripper = 1;!wait until gripper is closed
             WaitTime 1.5;!then wait for next move
             MoveL offs(Target_20, (shaft * (counter - 1)), 0, 0),v200,fine,My_Mechanism_1\WObj:=Start;
             MoveL Target_30, v200, fine, My_Mechanism_1\WObj:=Start;
-            WaitUntil DICloseGripper = 0;
+            WaitUntil DOCloseGripper = 0;
             WaitTime 1.5;
             MoveJ Target_40, v200, fine, My_Mechanism_1\WObj:=Start;
             !targets 50 and 50_2 are moving are moving 85mm on x axis to the right with each loop 
             MoveL offs(Target_50, (washer * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
             MoveL offs(Target_50_2, (washer * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
-            WaitUntil DICloseGripper = 1;
+            WaitUntil DOCloseGripper = 1;
             WaitTime 1.5;
             MoveL offs(Target_50, (washer * (counter - 1)), 0, 0), v200, fine, My_Mechanism_1\WObj:=Start;
             MoveJ Target_60, v200, fine, My_Mechanism_1\WObj:=Start;
             MoveJ Target_70,v200,fine,My_Mechanism_1\WObj:=Start;         
-            WaitUntil DICloseGripper = 0;
+            WaitUntil DOCloseGripper = 0;
             WaitTime 1.5;
             MoveJ Target_80, v200, fine, My_Mechanism_1\WObj:=Start;
             MoveL Target_90,v200,fine,My_Mechanism_1\WObj:=Done;
@@ -84,7 +84,7 @@
         MoveL Target_100,v200,fine,My_Mechanism_1\WObj:=Done;
         MoveL offs(Target_110, (-Done_distance * (Done_counter - 1)), 0,0),v200,fine,My_Mechanism_1\WObj:=Start;
        MoveL offs(Target_110_2, (-Done_distance * (Done_counter - 1)), 0,0),v200,fine,My_Mechanism_1\WObj:=Start;
-        WaitUntil DICloseGripper = 0;
+        WaitUntil DOCloseGripper = 0;
         WaitTime 1.5;
         WaitUntil DIDone = 0;
         Done_counter := Done_counter + 1;!Done counter is for place in done magasine
@@ -96,7 +96,7 @@
         MoveL Target_90_4,v200,fine,My_Mechanism_1\WObj:=Redo;
         MoveL offs(Target_110,(-Done_distance * (Redo_counter - 1)), -100, 0 ),v200,fine,My_Mechanism_1\WObj:=Redo;
         MoveL offs(Target_110_2,(-Done_distance * (Redo_counter - 1)), -100, 0 ),v200,fine,My_Mechanism_1\WObj:=Redo;
-        WaitUntil DICloseGripper = 0;
+        WaitUntil DOCloseGripper = 0;
         WaitTime 1.5;
         MoveL Target_150,v200,fine,My_Mechanism_1\WObj:=Redo;
         WaitUntil DIRedo = 0;
@@ -108,7 +108,7 @@
         MoveJ Target_160,v200,fine,My_Mechanism_1\WObj:=Waste;
         MoveL Target_170,v200,fine,My_Mechanism_1\WObj:=Waste;
         MoveJ Target_180,v200,fine,My_Mechanism_1\WObj:=Waste;
-        WaitUntil DICloseGripper = 0;
+        WaitUntil DOCloseGripper = 0;
         WaitTime 1.5;
         MoveJ Target_190,v200,fine,My_Mechanism_1\WObj:=Waste;
         WaitUntil DIWaste = 0;
